@@ -14,7 +14,7 @@
         <activity
             android:name=".SecondActivity"
             android:exported="true">
-            <intent-filter> // 시작 Activity에만 있어야 한다
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
